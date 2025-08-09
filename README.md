@@ -1,2 +1,8 @@
 # rhys-dance-hub
 An interactive dance learning platform for beginners and enthusiasts, featuring pose estimation, tutorials, and user-friendly design.
+Rhys Dance Hub is a responsive and visually engaging dance learning website designed to make dance education accessible to beginners, enthusiasts, and aspiring performers. The platform showcases a range of dance forms — including Ballet, Classical, Contemporary, and Freestyle — each with dedicated sections featuring descriptions, images, and guidance to help learners understand and appreciate the styles.
+
+The site is built with HTML5, CSS3, and JavaScript, ensuring smooth navigation, visually appealing layouts, and interactive elements for an immersive user experience. The clean structure allows quick loading, while CSS styling ensures a vibrant yet professional aesthetic. JavaScript is leveraged for interactivity, animations, and improved user engagement.
+Many people want to learn dance but face barriers like lack of nearby classes, high training fees, scheduling conflicts, or hesitation to join physical studios as beginners. Traditional dance learning often requires in-person attendance, making it inaccessible for those in remote areas or with busy lifestyles. Additionally, self-learners struggle to get proper guidance or feedback on their posture and technique.
+
+Rhys Dance Hub addresses these challenges by providing an online, accessible, and interactive platform where learners can explore various dance styles, access structured learning resources, and stay updated on workshops and events. With planned features like AI-based pose estimation, it will also give real-time posture feedback — replicating the experience of having a dance mentor at home.
