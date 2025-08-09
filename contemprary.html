@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contemporary Dance Workshop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .workshop-alert {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+
+        .image-container {
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .details {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .details h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .details p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .register-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        .register-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contemporary Dance Workshop</h1>
+    </header>
+
+    <div class="workshop-alert">
+        <p>Join us for an exciting Contemporary Dance Workshop! Limited spots available.</p>
+    </div>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="contemprary1.jpg" alt="Salsa Dance">
+        </div>
+
+        <div class="details">
+            <h2>Workshop Details</h2>
+            <p><strong>Date & Time:</strong> February 15, 2025 | 6:00 PM</p>
+            <p><strong>Venue:</strong> Dance Studio, 123 Main Street</p>
+            <p><strong>Fees:</strong> $50 per person</p>
+            <button class="register-button" onclick="alert('Registration Successful!')">Register Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
